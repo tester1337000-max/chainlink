@@ -61,7 +61,7 @@ RUN --mount=type=cache,target=/go/pkg/mod \
 ##
 # Final Image
 ##
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 
 ARG CHAINLINK_USER=root
 ENV DEBIAN_FRONTEND=noninteractive
